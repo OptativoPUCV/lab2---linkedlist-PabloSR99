@@ -266,3 +266,9 @@ list.c:114:8: error: ‘popBack’ defined but not used [-Werror=unused-function
 cc1: all warnings being treated as errors
 Compilation failed
 9a829c8
+Thu 23 Mar 2023 06:30:00 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+827c836

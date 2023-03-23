@@ -226,3 +226,14 @@ list.c:99:42: error: expected ‘;’ before ‘}’ token
       |   ~                                       
 Compilation failed
 f21520a
+Thu 23 Mar 2023 06:07:51 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:99:42: error: expected ‘;’ before ‘:’ token
+   99 |     nodoNuevo->next = list->current->next:
+      |                                          ^
+      |                                          ;
+Compilation failed
+8ac3acd

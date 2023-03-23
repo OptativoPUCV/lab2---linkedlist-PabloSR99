@@ -213,3 +213,16 @@ Thu 23 Mar 2023 06:06:19 PM UTC:
  1 file changed, 11 insertions(+), 7 deletions(-)
  tests:  0|0
 a125c88
+Thu 23 Mar 2023 06:07:43 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:99:42: error: expected ‘;’ before ‘}’ token
+   99 |     nodoNuevo->next = list->current->next
+      |                                          ^
+      |                                          ;
+  100 |   }
+      |   ~                                       
+Compilation failed
+f21520a
